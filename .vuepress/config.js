@@ -16,8 +16,8 @@ module.exports = {
 			...(process.argv[2] === 'build' ? [
 				require('@fullhuman/postcss-purgecss')({
 					content: [
-						`./.vuepress/(components|theme)/**//*.*`,
-						`./!(node_modules)/**//*.md`,
+						`./.vuepress/(components|theme)/**/*.*`,
+						`./!(node_modules)/**/*.md`,
 					],
 					// Include any special characters you're using in this regular expression
 					defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []

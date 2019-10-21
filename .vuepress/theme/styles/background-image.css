@@ -1,0 +1,9 @@
+.bg-pattern {
+	background-image: url("../assets/polka-dots.svg");
+}
+
+@screen print {
+	.bg-pattern {
+		background-image: none;
+	}
+}

@@ -24,10 +24,10 @@ export default {
 		methods() {
 			return [
 				{icon: 'email', label: 'Email', value: 'taavot@gmail.com', href: 'mailto:taavot@gmail.com'},
-				{icon: 'skype', label: 'Skype', value: 'taavot', href: 'skype:taavot'},
 				{icon: 'discord', label: 'Discord', value: 't2t2#2222', href: 'javascript:void(0)'},
 				{icon: 'twitter', label: 'Twitter', value: 't2t2', href: 'https://twitter.com/t2t2'},
 				{icon: 'github', label: 'Github', value: 't2t2', href: 'https://github.com/t2t2'},
+				{icon: 'skype', label: 'Skype', value: 'taavot', href: 'skype:taavot'},
 				{icon: 'linkedin', label: 'LinkedIn', value: '/in/t2t2', href: 'https://www.linkedin.com/in/t2t2/'}
 			]
 		}

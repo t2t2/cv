@@ -1,6 +1,6 @@
 <template>
-	<div class="w-screen min-h-screen bg-gray-900 print:bg-white bg-pattern text-gray-200 print:text-gray-900">
-		<div class="container mx-auto px-4 py-4 print:pt-0">
+	<div class="min-h-screen bg-gray-900 print:bg-white bg-pattern text-gray-200 print:text-gray-900">
+		<div class="container mx-auto px-4 py-4 print:p-4">
 			<div class="flex items-center">
 				<div class="flex-grow">
 					<h1 class="text-5xl">
@@ -12,8 +12,8 @@
 						<vp-icon class="inline-block" name="download" /> PDF
 					</a>
 					<a href="https://cv.t2t2.eu" class="hidden print:block text-right">
-						Interactive version available at:<br />
-						https://cv.t2t2.eu
+						<p class="text-sm">Interactive version available at</p>
+						<p class="text-lg">cv.t2t2.eu</p>
 					</a>
 				</div>
 			</div>

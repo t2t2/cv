@@ -3,5 +3,6 @@
 @import "tailwindcss/components.css";
 
 @import "background-image.css";
+@import "content.css";
 
 @import "tailwindcss/utilities.css";

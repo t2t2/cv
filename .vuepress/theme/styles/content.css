@@ -1,0 +1,5 @@
+.content__snippet {
+	& ul {
+		@apply .list-disc .list-inside
+	}
+}

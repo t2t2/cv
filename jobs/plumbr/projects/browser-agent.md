@@ -1,0 +1,15 @@
+---
+title: Browser Agent (Real User Monitoring)
+tags: [Javascript, Performance Timeline API, Resource Timing API, Rollup, Selenium, theintern.io]
+order: 1
+---
+
+::: slot snippet
+* Website performance monitoring with built-in support for dynamic websites & SPAs
+* Testing across different browsers using selenium grid & combination of docker & virtual machines (IE 11)
+* Basic test apps in multiple frameworks to ensure support across frameworks
+:::
+
+::: slot images
+![Browser Agent Scheme](./browser-agent-scheme.jpg)
+:::

@@ -4,7 +4,8 @@ module.exports = {
 	title: 'CV - Taavo-Taur Tammur',
 
 	plugins: [
-		'@goy/svg-icons'
+		'@goy/svg-icons',
+		require('./pdf-plugin')
 	],
 
 	postcss: {

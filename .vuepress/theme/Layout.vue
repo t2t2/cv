@@ -8,10 +8,10 @@
 					</h1>
 				</div>
 				<div>
-					<a class="print:hidden" href="#download" title="PDF generated just like if you were to print this page!">
+					<a class="print:hidden" href="/taavo-taur-tammur-cv.pdf" title="PDF generated just like if you were to print this page!">
 						<vp-icon class="inline-block" name="download" /> PDF
 					</a>
-					<p class="hidden print:block text-right">
+					<a href="https://cv.t2t2.eu" class="hidden print:block text-right">
 						Interactive version available at:<br />
 						https://cv.t2t2.eu
 					</p>

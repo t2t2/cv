@@ -14,7 +14,7 @@
 					<a href="https://cv.t2t2.eu" class="hidden print:block text-right">
 						Interactive version available at:<br />
 						https://cv.t2t2.eu
-					</p>
+					</a>
 				</div>
 			</div>
 			<ContactInformation />

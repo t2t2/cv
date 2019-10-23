@@ -12,5 +12,7 @@ order: 1
 :::
 
 ::: slot images
-![Browser Agent Scheme](./browser-agent-scheme.jpg)
+<images-gallery>
+<img src="./browser-agent-scheme.jpg" />
+</images-gallery>
 :::

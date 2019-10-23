@@ -5,6 +5,13 @@ module.exports = {
 
 	plugins: [
 		'@goy/svg-icons',
+		['@vuepress/medium-zoom', {
+			selector: '.images-gallery img',
+			options: {
+				background: '#2d3748',
+				margin: 16
+			}
+		}],
 		require('./pdf-plugin')
 	],
 

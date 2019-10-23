@@ -2,7 +2,7 @@
 
 @import "tailwindcss/components.css";
 
-@import "background-image.css";
-@import "content.css";
+@import "components/background-image.css";
+@import "components/content.css";
 
 @import "tailwindcss/utilities.css";

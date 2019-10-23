@@ -6,7 +6,7 @@
 				slot-key="logo"
 				class="job-logo mr-2 print:hidden"
 			/>
-			<div class="flex-1">
+			<div class="flex-1 overflow-hidden">
 				<div>
 					<h3 class="inline-block text-3xl print:text-2xl leading-none">
 						<a
@@ -23,12 +23,14 @@
 				</div>
 				<p class="hidden print:block text-sm">{{ job.frontmatter.url }}</p>
 
-				<project-details
-					v-for="project in projects"
-					:key="project.key"
-					:project="project"
-					class="mt-4 print:mt-2"
-				/>
+				<ul>
+					<project-details
+						v-for="project in projects"
+						:key="project.key"
+						:project="project"
+						class="mt-4 print:mt-2"
+					/>
+				</ul>
 			</div>
 		</div>
 	</li>

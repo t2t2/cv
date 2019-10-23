@@ -6,7 +6,7 @@
 					<a
 						v-if="project.frontmatter.url"
 						:href="project.frontmatter.url"
-						class="text-gray-400 print:text-black hover:underline"
+						class="text-blue-300 print:text-black hover:underline"
 					>
 						{{ project.title }}
 					</a>

@@ -11,7 +11,7 @@
 					<h3 class="inline-block text-3xl print:text-2xl leading-none">
 						<a
 							:href="job.frontmatter.url"
-							class="text-gray-400 print:text-black hover:underline"
+							class="text-blue-300 print:text-black hover:underline"
 							target="_blank"
 						>{{ job.title }}</a>
 					</h3>

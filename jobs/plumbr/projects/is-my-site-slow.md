@@ -1,7 +1,7 @@
 ---
 title: Is My Site Slow?
 url: http://ismysiteslow.com
-tags: [CUXR, PHP, Laravel, Vue.js, Nuxt.js]
+tags: [CUXR, PHP, Laravel, Vue.js, Nuxt.js, PWA]
 order: 4
 ---
 

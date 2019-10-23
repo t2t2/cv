@@ -1,5 +1,5 @@
 <template>
-	<ul class="print:list-disc print:list-outside">
+	<ul class="print:list-disc print:list-outside print:pl-6">
 		<job-details
 			v-for="job in jobs"
 			:key="job.key"

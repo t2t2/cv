@@ -1,7 +1,7 @@
 ---
 title: Public Website
 url: https://plumbr.io
-tags: [Wordpress, Roots.io, jQuery]
+tags: [PHP, Wordpress, Roots.io, jQuery]
 order: 2
 ---
 

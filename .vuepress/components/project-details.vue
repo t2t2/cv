@@ -44,17 +44,17 @@
 				class="hidden print:block text-xs"
 			>{{ project.frontmatter.url }}</p>
 
-			<Content
-				:page-key="project.key"
-				slot-key="snippet"
-				class="mt-2 print:hidden"
-			/>
+			<div class="mt-2 print:hidden">
+				<Content
+					:page-key="project.key"
+					slot-key="snippet"
+				/>
 
-			<Content
-				:page-key="project.key"
-				slot-key="images"
-				class="print:hidden"
-			/>
+				<Content
+					:page-key="project.key"
+					slot-key="images"
+				/>
+			</div>
 		</div>
 	</li>
 </template>
@@ -69,17 +69,3 @@ export default {
 	}
 }
 </script>
-
-<style>
-.project-gallery {
-	@apply .bg-blue-700;
-
-	& > p {
-		@apply .flex .overflow-x-scroll;
-	}
-	& > p > img {
-		@apply .flex-1 m-2 max-w-sm;
-		max-height: 300px;
-	}
-}
-</style>

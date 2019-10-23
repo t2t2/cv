@@ -34,7 +34,8 @@ module.exports = {
 					defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
 					whitelistPatterns: [
 						/^(html|body|h\d|p$|ul|li$|div|ol|table|td$|th$|thead|tbody|main|input|button|form|md-|hljs)/,
-						/^content__/
+						/^content__/,
+						/^(icon|outbound)/
 					]
 				})
 			] : [])

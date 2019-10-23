@@ -3,6 +3,7 @@
 @import "tailwindcss/components.css";
 
 @import "components/background-image.css";
+@import "components/common.css";
 @import "components/content.css";
 
 @import "tailwindcss/utilities.css";

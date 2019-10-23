@@ -19,7 +19,7 @@
 			</div>
 			<ContactInformation />
 
-			<div class="mt-8">
+			<div class="mt-8 print:mt-2 mb-8 print:mb-0">
 				<Content />
 			</div>
 		</div>

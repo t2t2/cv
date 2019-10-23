@@ -1,0 +1,17 @@
+a {
+	@apply .text-blue-300;
+
+	&:hover {
+		@apply .underline;
+	}
+
+	& .icon.outbound {
+		@apply .ml-1;
+	}
+}
+
+@screen print {
+	a {
+		@apply .text-black;
+	}
+}

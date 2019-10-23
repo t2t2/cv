@@ -1,5 +1,9 @@
 .content__snippet {
 	& ul {
-		@apply .list-disc .list-inside
+		@apply .list-disc .list-inside;
+
+		& li {
+			@apply .mb-1;
+		}
 	}
 }

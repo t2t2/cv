@@ -13,6 +13,6 @@ order: 1
 
 ::: slot images
 <images-gallery>
-<img src="./browser-agent-scheme.jpg" />
+<img src="./browser-agent-scheme.jpg" alt="Scheme" title="Scheme" />
 </images-gallery>
 :::

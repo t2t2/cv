@@ -7,7 +7,6 @@
 						<a
 							v-if="project.frontmatter.url"
 							:href="project.frontmatter.url"
-							class="text-blue-300 print:text-black hover:underline"
 						>
 							{{ project.title }}
 						</a>
@@ -16,6 +15,17 @@
 						</template>
 					</h4>
 				</div>
+				<a
+					v-if="project.frontmatter.github"
+					:href="`https://github.com/${project.frontmatter.github}`"
+					class="flex items-center"
+				>
+					<vp-icon
+						name="github"
+						class="mr-1"
+					/>
+					<span>{{ project.frontmatter.github }}</span>
+				</a>
 			</div>
 
 			<ul

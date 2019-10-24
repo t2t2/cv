@@ -27,7 +27,13 @@ module.exports = (opts = {}, ctx) => ({
 						await browserPage.goto(`http://${host}:${port}/`, {waitUntil: 'networkidle2'})
 						await browserPage.pdf({
 							path: resolve(__dirname, 'dist', 'taavo-taur-tammur-cv.pdf'),
-							format: 'A4'
+							format: 'A4',
+							margin: {
+								top: '1cm',
+								right: '1cm',
+								bottom: '1cm',
+								left: '1cm'
+							}
 						})
 					} finally {
 						nCtx.devProcess.server.close()

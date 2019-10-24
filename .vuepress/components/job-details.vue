@@ -4,7 +4,7 @@
 			<Content
 				:page-key="job.key"
 				slot-key="logo"
-				class="job-logo mr-2 print:hidden"
+				class="mr-2 print:hidden"
 			/>
 			<div class="flex-1 overflow-hidden">
 				<div>
@@ -53,9 +53,3 @@ export default {
 	}
 }
 </script>
-
-<style>
-.job-logo > p {
-	@apply .block .w-8;
-}
-</style>

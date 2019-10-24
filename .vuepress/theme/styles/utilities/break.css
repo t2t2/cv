@@ -1,0 +1,5 @@
+@responsive {
+	.break-inside-avoid {
+		break-inside: avoid;
+	}
+}

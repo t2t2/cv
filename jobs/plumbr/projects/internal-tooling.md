@@ -1,6 +1,6 @@
 ---
 title: Internal Tooling
-tags: [Node.js, FeathersJS, Vue.js, Nuxt.js]
+tags: [Node.js, FeathersJS, Vue.js]
 order: 5
 ---
 

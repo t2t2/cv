@@ -22,6 +22,12 @@
 				</div>
 				<p class="hidden print:block text-sm">{{ job.frontmatter.url }}</p>
 
+				<Content
+					:page-key="job.key"
+					slot-key="snippet"
+					class="mt-4 print:hidden"
+				/>
+
 				<ul>
 					<project-details
 						v-for="project in projects"

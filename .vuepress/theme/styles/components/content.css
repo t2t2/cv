@@ -19,3 +19,15 @@
 .content__logo > p {
 	@apply .block .w-8;
 }
+
+@screen print {
+	.looking-list {
+		& li {
+			display: inline;
+
+			&:not(:last-child)::after {
+				content: ', ';
+			}
+		}
+	}
+}

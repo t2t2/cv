@@ -9,3 +9,7 @@ role: Software Programmer
 ::: slot logo
 ![Plumbr Logo](./plumbr/logo.png)
 :::
+
+::: slot snippet
+Javascript & PHP development, some feature designing (actual designs were made by a separate designer). Usage of bitbucket, mecurial and jenkins.
+:::

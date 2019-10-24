@@ -1,6 +1,6 @@
 ---
 title: Browser Agent (Real User Monitoring)
-tags: [Javascript, Mutation Observer, Performance Timeline API, Resource Timing API, Rollup, Selenium, theintern.io]
+tags: [Javascript, Mutation Observer, Performance Timeline API, Resource Timing API, Rollup, Buble, Selenium, theintern.io]
 order: 1
 ---
 

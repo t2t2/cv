@@ -1,7 +1,7 @@
 ---
 title: Portal
 url: https://app.plumbr.io
-tags: [AngularJS, Vue.js, SVG, Webpack, Jest]
+tags: [AngularJS, Vue.js, SVG, Webpack, Babel, Jest]
 order: 3
 ---
 

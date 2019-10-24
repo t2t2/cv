@@ -40,7 +40,7 @@
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
-			<h3 class="text-xl mt-1">👀 Some interest in</h3>
+			<h3 class="text-xl mt-1"><span class="print:hidden">👀 </span>Some interest in</h3>
 			<ul class="mt-3 list-disc list-inside looking-list">
 				<li>React</li>
 				<li>Typescript</li>
@@ -48,14 +48,14 @@
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
-			<h3 class="text-xl mt-1">🤷‍♂️ Used, is alright</h3>
+			<h3 class="text-xl mt-1"><span class="print:hidden">🤷‍♂️ </span>Used, is alright</h3>
 			<ul class="mt-3 list-disc list-inside looking-list">
 				<li>Bootstrap</li>
 				<li>Processwire</li>
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
-			<h3 class="text-xl mt-1">😒 Have used but...</h3>
+			<h3 class="text-xl mt-1"><span class="print:hidden">😒 </span>Have used but...</h3>
 			<ul class="mt-3 list-disc list-inside looking-list">
 				<li>Angular.js</li>
 				<li>Wordpress</li>

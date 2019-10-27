@@ -33,7 +33,7 @@ Web developer with interest in user facing interfaces, real-time web apps and li
 			<p class="text-xs">as of Oct 2019</p>
 			<ul class="mt-3 list-disc list-inside looking-list">
 				<li class="mt-2">Feathers.js (real-time sites)</li>
-				<li>Laravel (static sites)</li>
+				<li>Laravel (sites w/ REST backend)</li>
 				<li>Bolt CMS (sites w/ CMS)</li>
 				<li class="mt-2">Vue.js (SPA)</li>
 				<li class="mt-2">Bulma (lazy at styling)</li>

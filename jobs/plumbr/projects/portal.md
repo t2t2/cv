@@ -1,5 +1,5 @@
 ---
-title: Portal
+title: Portal (SPA Frontend)
 url: https://app.plumbr.io
 tags: [AngularJS, Vue.js, SVG, Webpack, Babel, Jest]
 order: 3

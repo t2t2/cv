@@ -1,5 +1,5 @@
 <template>
-	<div class="min-h-screen bg-gray-900 print:bg-white bg-pattern text-gray-200 print:text-gray-900">
+	<div class="min-h-screen bg-gray-900 print:bg-white bg-pattern text-gray-200 print:text-gray-900 print:w-224">
 		<div class="container mx-auto px-4 py-4 print:p-4">
 			<div class="flex items-center">
 				<div class="flex-grow">
@@ -19,7 +19,7 @@
 			</div>
 			<ContactInformation />
 
-			<div class="mt-8 print:mt-2 mb-8 print:mb-0">
+			<div class="mt-4 print:mt-2 mb-8 print:mb-0">
 				<Content />
 			</div>
 		</div>

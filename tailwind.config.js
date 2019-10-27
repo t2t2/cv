@@ -27,6 +27,12 @@ module.exports = {
 			},
 			screens: {
 				'print': {'raw': 'print'}
+			},
+			spacing: {
+				'128': '32rem',
+				'192': '48rem',
+				'224': '56rem',
+				'256': '64rem'
 			}
 		}
 	},

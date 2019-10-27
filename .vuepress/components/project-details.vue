@@ -1,6 +1,6 @@
 <template>
-	<li>
-		<div class="print:break-inside-avoid">
+	<li class="print:break-inside-avoid">
+		<div>
 			<div class="flex mb-2">
 				<div class="flex-1">
 					<h4 class="text-xl">

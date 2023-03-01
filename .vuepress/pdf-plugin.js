@@ -21,10 +21,13 @@ module.exports = (opts = {}, ctx) => ({
 					const {host, port} = nCtx.devProcess
 
 					try {
+						console.log('Launching browser...');
 						const browser = await puppeteer.launch()
 						const browserPage = await browser.newPage()
-						
+
+						console.log('Loading page...');
 						await browserPage.goto(`http://${host}:${port}/`, {waitUntil: 'networkidle2'})
+						console.log('Generating pdf...');
 						await browserPage.pdf({
 							path: resolve(__dirname, 'dist', 'taavo-taur-tammur-cv.pdf'),
 							format: 'A4',

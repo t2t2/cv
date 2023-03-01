@@ -30,31 +30,34 @@ Web developer with interest in user facing interfaces, real-time web apps and li
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
 			<h3 class="text-xl mt-1">Stack most ❤ right now</h3>
-			<p class="text-xs">as of Oct 2019</p>
+			<p class="text-xs">as of Feb 2023</p>
 			<ul class="mt-3 list-disc list-inside looking-list">
-				<li class="mt-2">Feathers.js (real-time sites)</li>
+				<li class="list-none my-2"><small>Frontend</small></li>
+				<li>Typescript</li>
+				<li>Vue.js (SPA)</li>
+				<li>Tailwind.css/Windi (heavy styling)</li>
+				<li>Vite</li>
+				<li class="list-none my-2"><small>Backend</small></li>
 				<li>Laravel (sites w/ REST backend)</li>
 				<li>Bolt CMS (sites w/ CMS)</li>
-				<li class="mt-2">Vue.js (SPA)</li>
-				<li class="mt-2">Bulma (lazy at styling)</li>
-				<li>Tailwind.css (heavy styling)</li>
-				<li class="mt-2">Webpack</li>
-				<li>Babel</li>
+				<li>Feathers.js (real-time sites)</li>
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
 			<h3 class="text-xl mt-1"><span class="print:hidden">👀 </span>Some interest in</h3>
 			<ul class="mt-3 list-disc list-inside looking-list">
 				<li>React</li>
-				<li>Typescript</li>
-				<li>Gridsome</li>
+				<li>Static generated sites</li>
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
 			<h3 class="text-xl mt-1"><span class="print:hidden">🤷‍♂️ </span>Used, is alright</h3>
 			<ul class="mt-3 list-disc list-inside looking-list">
+				<li>Bulma</li>
 				<li>Bootstrap</li>
 				<li>Processwire</li>
+				<li>Webpack</li>
+				<li>Babel</li>
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">

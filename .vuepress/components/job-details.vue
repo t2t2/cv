@@ -1,5 +1,5 @@
 <template>
-	<li class="mt-2">
+	<li class="mb-4">
 		<div class="flex">
 			<Content
 				:page-key="job.key"
@@ -16,8 +16,7 @@
 					</h3>
 					<span>
 						({{ job.frontmatter.role }},
-						{{ job.frontmatter.start }}
-						<template v-if="job.frontmatter.end"> - {{ job.frontmatter.end }}</template>)
+						{{ job.frontmatter.start }}<template v-if="job.frontmatter.end"> - {{ job.frontmatter.end }}</template>)
 					</span>
 				</div>
 				<p class="hidden print:block text-sm">{{ job.frontmatter.url }}</p>

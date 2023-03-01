@@ -11,5 +11,4 @@ role: Software Programmer
 :::
 
 ::: slot snippet
-Javascript & PHP development, some feature designing (actual designs were made by a separate designer). Used bitbucket, mecurial and jenkins.
 :::

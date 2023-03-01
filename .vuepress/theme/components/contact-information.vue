@@ -27,10 +27,9 @@ export default {
 		methods() {
 			return [
 				{icon: 'email', label: 'Email', prefix: '', value: 'taavot@gmail.com', href: 'mailto:taavot@gmail.com'},
-				{icon: 'discord', label: 'Discord', prefix: '', value: 't2t2#2222', href: 'javascript:void(0)'},
-				{icon: 'skype', label: 'Skype', prefix: '', value: 'taavot', href: 'skype:taavot'},
 				{icon: 'github', label: 'Github', prefix: '', value: 't2t2', href: 'https://github.com/t2t2'},
-				{icon: 'linkedin', label: 'LinkedIn', prefix: '/in/', value: 't2t2', href: 'https://www.linkedin.com/in/t2t2/'}
+				{icon: 'linkedin', label: 'LinkedIn', prefix: '/in/', value: 't2t2', href: 'https://www.linkedin.com/in/t2t2/'},
+				{icon: 'discord', label: 'Discord', prefix: '', value: 't2t2#2222', href: 'javascript:void(0)'},
 			]
 		}
 	}

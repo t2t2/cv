@@ -19,9 +19,8 @@ jobs:
     - run: npm run build
     - run: npm run gen-pdf
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+      uses: JamesIves/github-pages-deploy-action@v4
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: .vuepress/dist
-        CNAME: cv.t2t2.eu
+        folder: .vuepress/dist
+        clean-exclude: |
+          CNAME

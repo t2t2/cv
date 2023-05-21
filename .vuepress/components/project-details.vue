@@ -2,7 +2,7 @@
 	<li class="print:break-inside-avoid">
 		<div>
 			<div class="flex mb-2">
-				<div class="flex-1">
+				<div class="flex-1" style="word-break: keep-all;">
 					<h4 class="text-xl">
 						<a
 							v-if="project.frontmatter.url"
@@ -18,7 +18,7 @@
 				<a
 					v-if="project.frontmatter.github"
 					:href="`https://github.com/${project.frontmatter.github}`"
-					class="flex items-center"
+					class="flex items-center print:text-xs"
 				>
 					<vp-icon
 						name="github"

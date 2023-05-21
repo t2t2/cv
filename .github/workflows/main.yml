@@ -20,7 +20,7 @@ jobs:
     - run: npm run gen-pdf
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
-      env:
+      with:
         folder: .vuepress/dist
         clean-exclude: |
           CNAME

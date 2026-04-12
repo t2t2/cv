@@ -1,5 +1,5 @@
 ---
-title: Splunk
+title: Splunk (acquired by Cisco in 2025)
 url: https://splunk.com/
 start: 2021-02
 end:

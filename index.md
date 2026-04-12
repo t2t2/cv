@@ -30,17 +30,16 @@ Web developer with interest in user facing interfaces, real-time web apps and li
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
 			<h3 class="text-xl mt-1">Stack most ❤ right now</h3>
-			<p class="text-xs">as of Feb 2023</p>
+			<p class="text-xs">as of Apr 2026</p>
 			<ul class="mt-3 list-disc list-inside looking-list">
 				<li class="list-none my-2"><small>Frontend</small></li>
 				<li>Typescript</li>
 				<li>Vue.js (SPA)</li>
-				<li>Tailwind.css/Windi (heavy styling)</li>
+				<li>Tailwind +  (heavy styling)</li>
 				<li>Vite</li>
 				<li class="list-none my-2"><small>Backend</small></li>
 				<li>Laravel (sites w/ REST backend)</li>
-				<li>Bolt CMS (sites w/ CMS)</li>
-				<li>Feathers.js (real-time sites)</li>
+				<li>Bolt CMS + hotwire/turbo (sites w/ CMS)</li>
 			</ul>
 		</div>
 		<div class="mt-4 print:break-inside-avoid">
